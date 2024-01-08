@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3b3b4f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0a0a23;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    width: 100%;
+    max-width: 480px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.phone-container {
+    position: relative;
+    background-color: #dfdfe2;
+    width: 250px;
+    height: 460px;
+    margin: 30px auto;
+    border-radius: 15px;
+    border: 15px solid #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.phone-background {
+    width: 100%;
+    height: 25px;
+    background-color: #000000;
+}
+
+.phone-camera {
+    background-color: #dfdfe2;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+label {
+    margin: 10px auto 5px;
+}
+
+#user-input {
+    width: 90%;
+    height: 42px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#result-div {
+    overflow-y: auto;
+    width: 100%;
+    height: 265px;
+    padding: 15px;
+}
+
+.phone-footer {
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.btn-styles {
+    cursor: pointer;
+    width: 100px;
+    font-size: 18px;
+    background-image: linier-gradient(#ffffff, #928d86);
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-width: 3px;
+}
+
